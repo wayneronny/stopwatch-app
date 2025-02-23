@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0f2f7; /* Light blue-gray background */
+}
+
+.timer {
+  border: 5px solid #aed581; /* Light green border */
+  border-radius: 50%; /* Make it a circle */
+  width: 300px; /* Adjust as needed */
+  height: 300px; /* Adjust as needed - same as width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center content vertically */
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  background-color: #ffffff; /* White container */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+  background-image: linear-gradient(135deg, #aed581, #81c784); /* Green gradient */
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+  padding: 20px; /* Add some padding inside the circle */
+}
+
+.timer h1 {
+  font-size: 32px; /* Reduced font size for heading */
+  margin-bottom: 15px; /* Reduced margin */
+  color: #2e7d32; /* Darker green for heading */
+  text-align: center; /* Center the heading text */
+}
+
+.timer button {
+  background-color: #66bb6a; /* Medium green for buttons */
+  border: none;
+  color: white;
+  padding: 8px 16px; /* Adjusted button padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px; /* Reduced button font size */
+  margin: 5px; /* Adjusted button margin */
+  cursor: pointer;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  width: auto; /* Allow buttons to adjust width to content */
+}
+
+.timer button:hover {
+  background-color: #388e3c; /* Darker green on hover */
+  color: white;
+}
+
+.timer div {
+  font-size: 24px; /* Adjusted timer display font size */
+  margin-top: 15px; /* Adjusted margin */
+  color: #2e7d32; /* Darker green for timer */
+  text-align: center; /* Center the timer text */
+}
