@@ -12,7 +12,7 @@ This is a simple stopwatch application built using React and the date-fns librar
 #### Installation
 1. Clone the repo:
 ```
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/wayneronny/stopwatch-app.git
 ```
 2. Install dependencies:
 ```
