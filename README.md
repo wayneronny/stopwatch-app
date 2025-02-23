@@ -22,3 +22,6 @@ npm install
 ```
 npm run dev
 ```
+### Deployment using Netlify.app
+
+https://my-stopwatch-yyyy.netlify.app/
